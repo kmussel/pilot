@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		54CACBDF1C1217FB00DECEDF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CACBDE1C1217FB00DECEDF /* main.swift */; };
+		54CACBE61C12180600DECEDF /* Pilot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CACBE51C12180600DECEDF /* Pilot.swift */; };
+		54CC4C261C12238A00D31F20 /* QueryPEAWE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC4C251C12238A00D31F20 /* QueryPEAWE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		54CACBDB1C1217FB00DECEDF /* Pilot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pilot; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CACBDE1C1217FB00DECEDF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		54CACBE51C12180600DECEDF /* Pilot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pilot.swift; sourceTree = "<group>"; };
+		54CC4C251C12238A00D31F20 /* QueryPEAWE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryPEAWE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,19 @@
 		54CACBDD1C1217FB00DECEDF /* Pilot */ = {
 			isa = PBXGroup;
 			children = (
+				54CC4C241C12233A00D31F20 /* Sources */,
 				54CACBDE1C1217FB00DECEDF /* main.swift */,
 			);
 			path = Pilot;
+			sourceTree = "<group>";
+		};
+		54CC4C241C12233A00D31F20 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				54CACBE51C12180600DECEDF /* Pilot.swift */,
+				54CC4C251C12238A00D31F20 /* QueryPEAWE.swift */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54CC4C261C12238A00D31F20 /* QueryPEAWE.swift in Sources */,
+				54CACBE61C12180600DECEDF /* Pilot.swift in Sources */,
 				54CACBDF1C1217FB00DECEDF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +255,7 @@
 				54CACBE41C1217FB00DECEDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
