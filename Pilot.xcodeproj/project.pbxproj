@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		54CACBDF1C1217FB00DECEDF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CACBDE1C1217FB00DECEDF /* main.swift */; };
 		54CACBE61C12180600DECEDF /* Pilot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CACBE51C12180600DECEDF /* Pilot.swift */; };
-		54CC4C261C12238A00D31F20 /* QueryPEAWE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC4C251C12238A00D31F20 /* QueryPEAWE.swift */; };
+		54CC4C261C12238A00D31F20 /* QueryParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC4C251C12238A00D31F20 /* QueryParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 		54CACBDB1C1217FB00DECEDF /* Pilot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pilot; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CACBDE1C1217FB00DECEDF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		54CACBE51C12180600DECEDF /* Pilot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pilot.swift; sourceTree = "<group>"; };
-		54CC4C251C12238A00D31F20 /* QueryPEAWE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryPEAWE.swift; sourceTree = "<group>"; };
+		54CC4C251C12238A00D31F20 /* QueryParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				54CACBE51C12180600DECEDF /* Pilot.swift */,
-				54CC4C251C12238A00D31F20 /* QueryPEAWE.swift */,
+				54CC4C251C12238A00D31F20 /* QueryParser.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -133,7 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54CC4C261C12238A00D31F20 /* QueryPEAWE.swift in Sources */,
+				54CC4C261C12238A00D31F20 /* QueryParser.swift in Sources */,
 				54CACBE61C12180600DECEDF /* Pilot.swift in Sources */,
 				54CACBDF1C1217FB00DECEDF /* main.swift in Sources */,
 			);
