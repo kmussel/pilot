@@ -8,5 +8,7 @@
 
 import Foundation
 
-print("Hello, World!")
+let port:SocketPort = 8080
 
+let http = HTTP(port: port)
+http.run()

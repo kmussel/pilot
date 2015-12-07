@@ -10,7 +10,7 @@ import Foundation
 
 public let VERSION = "0.0.1"
 
-public struct HTTP {
+public struct HTTPDetails {
     public static let HTTP_HOST         = "HTTP_HOST"
     public static let HTTP_VERSION      = "HTTP_VERSION"
     public static let HTTPS             = "HTTPS"
