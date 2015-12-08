@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		54C8B8781C15D21E0069F04F /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8B8771C15D21E0069F04F /* Server.swift */; };
+		54C8B87A1C15F89E0069F04F /* Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8B8791C15F89E0069F04F /* Params.swift */; };
+		54C8B87C1C15F92A0069F04F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8B87B1C15F92A0069F04F /* Response.swift */; };
+		54C8B87E1C15F9330069F04F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8B87D1C15F9330069F04F /* Request.swift */; };
+		54C8B8821C15FCBF0069F04F /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C8B8811C15FCBF0069F04F /* URI.swift */; };
 		54CACBDF1C1217FB00DECEDF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CACBDE1C1217FB00DECEDF /* main.swift */; };
 		54CACBE61C12180600DECEDF /* Pilot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CACBE51C12180600DECEDF /* Pilot.swift */; };
 		54CC4C261C12238A00D31F20 /* QueryParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54CC4C251C12238A00D31F20 /* QueryParser.swift */; };
@@ -27,6 +31,10 @@
 
 /* Begin PBXFileReference section */
 		54C8B8771C15D21E0069F04F /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		54C8B8791C15F89E0069F04F /* Params.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Params.swift; sourceTree = "<group>"; };
+		54C8B87B1C15F92A0069F04F /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		54C8B87D1C15F9330069F04F /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		54C8B8811C15FCBF0069F04F /* URI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URI.swift; sourceTree = "<group>"; };
 		54CACBDB1C1217FB00DECEDF /* Pilot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pilot; sourceTree = BUILT_PRODUCTS_DIR; };
 		54CACBDE1C1217FB00DECEDF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		54CACBE51C12180600DECEDF /* Pilot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pilot.swift; sourceTree = "<group>"; };
@@ -73,8 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				54CACBE51C12180600DECEDF /* Pilot.swift */,
+				54C8B8791C15F89E0069F04F /* Params.swift */,
 				54CC4C251C12238A00D31F20 /* QueryParser.swift */,
+				54C8B87B1C15F92A0069F04F /* Response.swift */,
+				54C8B87D1C15F9330069F04F /* Request.swift */,
 				54C8B8771C15D21E0069F04F /* Server.swift */,
+				54C8B8811C15FCBF0069F04F /* URI.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -139,7 +151,11 @@
 				54CC4C261C12238A00D31F20 /* QueryParser.swift in Sources */,
 				54CACBE61C12180600DECEDF /* Pilot.swift in Sources */,
 				54C8B8781C15D21E0069F04F /* Server.swift in Sources */,
+				54C8B87A1C15F89E0069F04F /* Params.swift in Sources */,
+				54C8B87E1C15F9330069F04F /* Request.swift in Sources */,
+				54C8B87C1C15F92A0069F04F /* Response.swift in Sources */,
 				54CACBDF1C1217FB00DECEDF /* main.swift in Sources */,
+				54C8B8821C15FCBF0069F04F /* URI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
